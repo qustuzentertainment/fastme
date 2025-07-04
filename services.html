@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fasme Software - Innovative Web & App Solutions</title>
-  <meta name="description" content="Fasme Software specializes in Cyber Security, Web Development, and the innovative social app Fastme." />
-  <meta property="og:title" content="Fasme Software - Web & App Solutions" />
-  <meta property="og:description" content="Explore our expertise in Cyber Security, Web Development, and the Fastme social app." />
+  <title>Fasme Software - Our Services</title>
+  <meta name="description" content="Discover Fasme Software's services: innovative social app Fastme, custom web design, mobile app development, and robust cyber security solutions." />
+  <meta property="og:title" content="Fasme Software - Our Services" />
+  <meta property="og:description" content="Explore our expertise in the Fastme social app, web design, app development, and cyber security." />
   <meta property="og:image" content="/images/og-image.png" />
   <meta name="theme-color" content="#00ffaa">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../main/style.css">
 </head>
 <body>
   <header>
     <div class="logo">Fasme Software</div>
     <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
     <nav id="navbar" aria-label="Main navigation">
-     <a href="../index.html#hero">Home</a>
-      <a href="/pages/services.html">Services</a>
-      <a href="/pages/fastme.html">Visit Fastme</a>
+      <a href="../index.html#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="../index.html#visit">Visit Fastme</a>
       <a href="#contact" class="cta-btn">Get in Touch</a>
     </nav>
     <div class="btn-group">
@@ -30,28 +30,13 @@
     </div>
   </header>
 
-  <section class="hero" id="hero">
-    <div class="hero-inner">
-      <div class="content animate__animated animate__fadeInLeft">
-        <h1>Empowering Digital Success</h1>
-        <p>Fasme Software specializes in Cyber Security, Web Development, and our innovative social app "Fastme". Transform your ideas into reality with our cutting-edge solutions.</p>
-        <div class="socials">
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        </div>
-      </div>
-      <img class="illustration animate__animated animate__fadeInRight" src="/images/digital (2).png" alt="Digital Innovation Illustration" />
-    </div>
-  </section>
-
   <section class="services" id="services">
-    <h2 class="section-title">Our Services</h2>
+    <h2 class="section-title animate__animated animate__fadeIn">Our Services</h2>
     <div class="service-grid">
-      <div class="service">
+      <div class="service animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+        <i class="fas fa-users fa-3x service-icon"></i>
         <h3>Fastme App</h3>
-        <p>Fastme is a revolutionary social media app that connects users via Google Maps, fosters meaningful relationships, and enables monetization through shareable video content.</p>
+        <p>Fastme revolutionizes social networking by connecting users via Google Maps, fostering authentic relationships, and enabling monetization through shareable video content. Connect, create, and earn with ease.</p>
         <div class="download-app">
           <a href="https://play.google.com/store/apps/details?id=your.app.id" target="_blank" aria-label="Download Fastme on Google Play">
             <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
@@ -61,27 +46,20 @@
           </a>
         </div>
       </div>
-      <div class="service">
+      <div class="service animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+        <i class="fas fa-desktop fa-3x service-icon"></i>
         <h3>Website Design</h3>
-        <p>We craft stunning, high-performance websites with modern design trends, responsive layouts, and intuitive user experiences tailored to your vision.</p>
+        <p>Our expert team crafts visually stunning, high-performance websites with modern design trends, responsive layouts, and intuitive user experiences, tailored to elevate your brand.</p>
       </div>
-      <div class="service">
+      <div class="service animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+        <i class="fas fa-mobile-alt fa-3x service-icon"></i>
         <h3>App Development</h3>
-        <p>Our team builds custom mobile and web applications for Android, iOS, and cross-platform use, ensuring seamless UI/UX and robust functionality.</p>
+        <p>We build custom mobile and web applications for Android, iOS, and cross-platform use, delivering seamless UI/UX, robust performance, and tailored functionality for your business.</p>
       </div>
-      <div class="service">
+      <div class="service animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">
+        <i class="fas fa-shield-alt fa-3x service-icon"></i>
         <h3>Cyber Security</h3>
-        <p>Protect your digital assets with our comprehensive cyber security solutions, including penetration testing, encryption, and incident response.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="testimonials" id="testimonials">
-    <h2 class="section-title">What Our Clients Say</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial">
-        <p>"Fasme built my startup's site in record time. Clean design, super responsive!"</p>
-        <strong>— Sarah, Founder of NaijaConnect</strong>
+        <p>Safeguard your digital assets with our comprehensive cyber security solutions, including penetration testing, encryption, and proactive incident response.</p>
       </div>
     </div>
   </section>
@@ -91,7 +69,7 @@
       <div class="footer-grid">
         <div class="footer-box">
           <h3>Our Office</h3>
-          <p>371 Ikwerre Road, Mile 4,<br>Port Harcourt, Rivers State</p>
+          <p><i class="fas fa-map-marker-alt"></i> 371 Ikwerre Road, Mile 4, Port Harcourt, Rivers State</p>
           <p><i class="fas fa-phone-alt"></i> +234 816 086 9969</p>
           <p><i class="fas fa-phone-alt"></i> 0802 131 1782</p>
           <p><i class="fas fa-envelope"></i> help@fastme.org</p>
@@ -101,15 +79,15 @@
         <div class="footer-box">
           <h3>Quick Links</h3>
           <ul class="footer-links">
-            <li><a href="#hero">Home</a></li>
+            <li><a href="../index.html#hero">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#visit">Visit Fastme</a></li>
+            <li><a href="../index.html#visit">Visit Fastme</a></li>
           </ul>
         </div>
         <div class="footer-box">
           <h3>Head Office</h3>
-          <p>Driving innovation from our headquarters in Port Harcourt, we deliver cutting-edge solutions to clients worldwide.</p>
+          <p>Driving innovation from our headquarters in Port Harcourt, we deliver cutting-edge solutions to clients worldwide, empowering businesses with technology and creativity.</p>
         </div>
       </div>
     </div>
@@ -118,7 +96,7 @@
     </footer>
   </section>
 
-  <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  <a href="#services" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
   <a href="https://wa.me/2348160869969" class="chat-btn" target="_blank" aria-label="Chat with us on WhatsApp"><i class="fab fa-whatsapp"></i> Chat with Us</a>
 
   <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
@@ -129,9 +107,7 @@
     }
 
     ScrollReveal().reveal('.service', { delay: 200, origin: 'bottom', distance: '30px', duration: 1000 });
-    ScrollReveal().reveal('.hero-inner .content', { delay: 200, origin: 'left', distance: '50px', duration: 1000 });
-    ScrollReveal().reveal('.hero-inner .illustration', { delay: 400, origin: 'right', distance: '50px', duration: 1000 });
-    ScrollReveal().reveal('.testimonial', { delay: 200, origin: 'bottom', distance: '30px', duration: 1000 });
+    ScrollReveal().reveal('.section-title', { delay: 100, origin: 'top', distance: '20px', duration: 800 });
 
     const backToTop = document.querySelector('.back-to-top');
     window.addEventListener('scroll', () => {
